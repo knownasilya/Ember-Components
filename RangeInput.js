@@ -2,7 +2,7 @@ window.BC = Ember.Namespace.create({
   VERSION: "0.0.1"
 });
 
-BC.RangeInputView = Ember.View.extend({
+BC.RangeInput = Ember.View.extend({
   tagName: "input",
   attributeBindings: ["type", "min", "max", "step", "value", "name"],
   type: "range",
@@ -11,9 +11,6 @@ BC.RangeInputView = Ember.View.extend({
   step: 1,
   value: 5,
   change: function (event) {
-    this.set("value", event.target.value);
-  },
-  drag: function (event) {
     this.set("value", event.target.value);
   }
 });
