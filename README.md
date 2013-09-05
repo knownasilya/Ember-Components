@@ -1,6 +1,18 @@
-Ember.js Range Input
+Ember.js Components
 ====================
+## Popover
+### Usage
+Basic example of how this component can be used.
 
+```
+{{#pop-over title='My Popover' isVisible=controller.isMyPopoverVisible}}
+  <h3>My Content Here</h3>
+  <p>Small description of something..</p>
+{{/pop-over}}
+```
+
+
+## RangeInput
 Simple HTML5 Range input Ember view.
 
 Usage

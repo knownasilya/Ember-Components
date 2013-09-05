@@ -1,0 +1,9 @@
+<div class="arrow"></div>
+<h3 class="popover-title">
+  {{view.title}}
+  <button type="button" class="close" aria-hidden="true" {{action 'close' target=view}} >&times;</button>
+</h3>
+
+<div class="popover-content">
+  {{yield}}
+</div>
