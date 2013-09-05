@@ -4,7 +4,7 @@ Ember.js Components
 ### Usage
 Basic example of how this component can be used.
 
-```
+```hbs
 {{#pop-over title='My Popover' isVisible=controller.isMyPopoverVisible}}
   <h3>My Content Here</h3>
   <p>Small description of something..</p>
@@ -15,21 +15,19 @@ Basic example of how this component can be used.
 ## RangeInput
 Simple HTML5 Range input Ember view.
 
-Usage
-=====
-
+### Usage
 The most basic, which is initialized with these default values:
 * min: 0
 * max: 10
 * step: 1
 * value: 5
 
-```
+```hbs
 {{view BC.RangeInput valueBinding="controller.transparency"}}
 ```
 
 You can also do the following
-```
+```hbs
 {{view BC.RangeInput min="0" max="1" step="0.01" valueBinding="controller.transparency"}}
 ```
 
@@ -45,8 +43,8 @@ See [jQuery Tools Range Input](http://jquerytools.org/documentation/rangeinput/)
 The control creates it's own HTML, so you would have to implement `change` and `drag` on a parent view, 
 since `RangeInput` will not register events since it's value is not really being changed.
 
-Valid Options
-=============
+### Valid Options
+
 * min
 * max
 * type
