@@ -4,7 +4,7 @@ Ember.js Components
 ### Usage
 Basic example of how this component can be used.
 
-```hbs
+```handlebars
 {{#pop-over title='My Popover' isVisible=controller.isMyPopoverVisible}}
   <h3>My Content Here</h3>
   <p>Small description of something..</p>
