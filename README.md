@@ -1,5 +1,8 @@
 Ember.js Components
 ====================
+
+**NOTE: Deprecated, use at your own risk!**
+
 ## Popover
 ### Usage
 Basic example of how this component can be used.
